@@ -625,6 +625,10 @@ GameObject:
   - component: {fileID: 3076043918534591760}
   - component: {fileID: 4785327406015848709}
   - component: {fileID: 2445904254404632606}
+  - component: {fileID: -76990139647402272}
+  - component: {fileID: 8689991339294669878}
+  - component: {fileID: 5781568251503873058}
+  - component: {fileID: 2766795551587838717}
   m_Layer: 5
   m_Name: CommonChest
   m_TagString: Untagged
@@ -739,6 +743,67 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-76990139647402272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644386694774399936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621ff59cc11a5294dadc79d1cbbd8171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageHolder: {fileID: 4048152017961967930}
+  chestType: 0
+  chestClosedImage: {fileID: 21300000, guid: 1f1cb616969aa2b4e9f3b773d343795f, type: 3}
+  chestOpenedImage: {fileID: 21300000, guid: ba097c7a1e2782240bebcb378f9040f5, type: 3}
+  lockedPanel: {fileID: 6739194377647887533}
+  inQueueText: {fileID: 7118219705043309381}
+  unlockingPanel: {fileID: 5507802966137571395}
+  timerText: {fileID: 6638088709880254898}
+  gemCountText: {fileID: 2780368117483861899}
+  chestOpenedPanel: {fileID: 8028290103002948981}
+  chestLockedState: {fileID: 8689991339294669878}
+  chestUnlockingState: {fileID: 2766795551587838717}
+  chestOpenedState: {fileID: 5781568251503873058}
+--- !u!114 &8689991339294669878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644386694774399936}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366a15e2c2c9377469080d65da253c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5781568251503873058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644386694774399936}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070863af582b0594593131ba6542ba51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2766795551587838717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644386694774399936}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d5c597edcd8844da900f463bd4cd91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3923600986688439697
 GameObject:
   m_ObjectHideFlags: 0

@@ -357,6 +357,10 @@ GameObject:
   - component: {fileID: 9111567414590770352}
   - component: {fileID: 4778660538796404034}
   - component: {fileID: 7307739300958248636}
+  - component: {fileID: 969359059626607011}
+  - component: {fileID: 350396640881837626}
+  - component: {fileID: 7905337019692337324}
+  - component: {fileID: 1147209754025075363}
   m_Layer: 5
   m_Name: EpicChest
   m_TagString: Untagged
@@ -471,6 +475,67 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &969359059626607011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714791596221277442}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 366a15e2c2c9377469080d65da253c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &350396640881837626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714791596221277442}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 070863af582b0594593131ba6542ba51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7905337019692337324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714791596221277442}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d5c597edcd8844da900f463bd4cd91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1147209754025075363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4714791596221277442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621ff59cc11a5294dadc79d1cbbd8171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imageHolder: {fileID: 2998608468997917828}
+  chestType: 2
+  chestClosedImage: {fileID: 21300000, guid: 5fb6dd22147591c458dbf0956de68a3f, type: 3}
+  chestOpenedImage: {fileID: 21300000, guid: 075ec9b23a29c364d976b6643fa92929, type: 3}
+  lockedPanel: {fileID: 1154350030234360183}
+  inQueueText: {fileID: 7632434267475027394}
+  unlockingPanel: {fileID: 6826992774492554973}
+  timerText: {fileID: 3124987849278834321}
+  gemCountText: {fileID: 3941060344902777209}
+  chestOpenedPanel: {fileID: 6573137435427407925}
+  chestLockedState: {fileID: 969359059626607011}
+  chestUnlockingState: {fileID: 7905337019692337324}
+  chestOpenedState: {fileID: 350396640881837626}
 --- !u!1 &5115879650085541709
 GameObject:
   m_ObjectHideFlags: 0

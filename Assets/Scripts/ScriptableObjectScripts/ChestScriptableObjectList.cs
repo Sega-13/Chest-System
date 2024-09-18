@@ -4,4 +4,5 @@ using UnityEngine;
 public class ChestScriptableObjectList : ScriptableObject
 {
     public ChestScriptableObject[] chests;
+
 }
