@@ -125,5 +125,10 @@ public class ChestService : GenericMonoSingleton<ChestService>
         EventService.Instance.OnCreateChest -= CreateRandomChest;
         EventService.Instance.OnOpenNextChestInQueue -= OpenNextChestInQueue;
     }
+    public void AddCurrency(int coinCount, int gemCount)
+    {
+        CurrencyService.Instance.AddCoins(coinCount);
+        CurrencyService.Instance.AddGems(gemCount);
+    }
 
 }

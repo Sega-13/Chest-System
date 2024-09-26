@@ -742,7 +742,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4785327406015848709}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -76990139647402272}
+        m_TargetAssemblyTypeName: ChestView, Assembly-CSharp
+        m_MethodName: ClickedOnChest
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &-76990139647402272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -955,7 +967,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &195723523909561450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1030,7 +1042,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5816467761433106744
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1278,7 +1290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8842570228680768740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1355,7 +1367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1588545831329648548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1491,7 +1503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7478288835376327753
 RectTransform:
   m_ObjectHideFlags: 0

@@ -18,4 +18,4 @@ MonoBehaviour:
   minGems: 45
   maxGems: 60
   timeToOpen: 60
-  chestPrefab: {fileID: 0}
+  chestPrefab: {fileID: 1147209754025075363, guid: 630758b4957a4534d9023632b7b7406c, type: 3}
