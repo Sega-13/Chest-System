@@ -3,20 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventService 
+public class EventService : GenericMonoSingleton<EventService>
 {
-    private static EventService instance = null;
-    public static EventService Instance
+    protected override void Awake()
     {
-        get
-        {
-            if (instance == null)
-                instance = new EventService();
-
-            return instance;
-        }
+        base.Awake();
     }
-
     public event Action<Transform> OnCreateChest;
     public event Action<int> OnUpdateCoinCount;
     public event Action<int> OnUpdateGemCount;
@@ -33,6 +25,7 @@ public class EventService
     public event Action OnChestQueueEmpty;
     public event Action<string> OnOkayPopUp;
 
+   
     public void InvokeOnCreateChest(Transform chestHolder)
     {
         OnCreateChest?.Invoke(chestHolder);
