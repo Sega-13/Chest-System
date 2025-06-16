@@ -14,5 +14,24 @@ what I did: Designed and implemented a dynamic chest reward system using Unity a
 •	Unity Prefabs for reusable chest visuals   
 •	Unity Scenes for gameplay environment   
 
+**Design Patterns**   
+1.	MVC Architecture (Model-View-Controller):   
+    •	Model: ChestModel.cs handles chest data like type and timer.  
+    •	View: ChestView.cs manages the UI and visual representation.   
+    •	Controller: ChestController.cs links the view with the model and manages user interactions.    
+2.	State Pattern:   
+    •	Encapsulated chest behavior in different states like Locked, Unlocking, and Opened.   
+    •	Classes: ChestLockedState.cs, ChestUnLockingState.cs, ChestOpenedState.cs, and base ChestState.cs.    
+3.	ScriptableObjects:    
+    •	Used for chest configuration (ChestScriptableObject.cs) and storing all chest types (ChestScriptableObjectList.cs).     
+    •	Promotes data-driven design and easier balancing.    
+4.	Singleton Pattern:    
+    •	GenericMonoSingleton.cs provides global access to services like CurrencyService and ChestService.   
+5.	Service Layer:    
+    •	ChestService.cs and CurrencyService.cs abstract the business logic, promoting clean separation of concerns.   
+6.	Object Pooling:    
+    •	ChestObjectPool.cs helps in efficient memory management by reusing chest GameObjects.
 
+**Images**
+ ![](https://github.com/Sega-13/Chest-System/blob/main/Images/Screenshot%202024-10-09%20101631.png) ![](https://github.com/Sega-13/Chest-System/blob/main/Images/Screenshot%202024-10-09%20101717.png)
                                                                  
