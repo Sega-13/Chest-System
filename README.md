@@ -1,4 +1,4 @@
-                                                                 ** # Chest-System**   
+                                                         ** # Chest-System**   
 
 The ultimate loot-based adventure where every chest holds a surprise! Earn, collect, and unlock a wide variety of chests filled with coins, gems, power-ups, rare items, and more.   
 
